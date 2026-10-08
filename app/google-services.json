@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "644095788681",
+    "project_id": "colo-chess",
+    "storage_bucket": "colo-chess.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644095788681:android:6e00d4e7b6e81ef31aa858",
+        "android_client_info": {
+          "package_name": "com.ctrange.colochess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644095788681-868mb3mfmcp12codjjvtnipfv01ae52l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwVmWdlMZYtbd3AcMaz4wNHwtJVh3vuXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644095788681-868mb3mfmcp12codjjvtnipfv01ae52l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

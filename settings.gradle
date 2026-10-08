@@ -1,0 +1,34 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        jcenter()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+
+        jcenter()
+
+        maven {url 'https://android-sdk.is.com/'}
+
+        maven {
+            name "Tapjoy's maven repo"
+            url "https://sdk.tapjoy.com/"
+        }
+        maven {
+            name 'Google'
+            url 'https://maven.google.com/'
+        }
+        // Gamify Space / GSpace SDK
+        maven { url 'https://dl.gamifyspace.com/gamify/' }
+    }
+
+}
+rootProject.name = "colochese"
+include ':app'

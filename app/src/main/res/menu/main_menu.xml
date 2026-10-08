@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/drawer_go_trans"
+        android:checkable="false"
+        android:checked="true"
+        android:icon="@drawable/ic_baseline_web_24"
+        android:title="@string/trans"
+        />
+
+    <item
+        android:id="@+id/drawer_go_offec"
+        android:checkable="false"
+        android:checked="true"
+        android:icon="@drawable/ic_baseline_web_24"
+        android:title="@string/official_site" />
+
+    <item
+        android:id="@+id/drawer_go_terms"
+        android:checkable="false"
+        android:checked="true"
+        android:icon="@drawable/ic_terms"
+        android:title="@string/terms" />
+
+    <item
+        android:id="@+id/drawer_go_privacy"
+        android:checkable="false"
+        android:checked="true"
+        android:icon="@drawable/ic_privacy"
+        android:title="@string/privacy" />
+
+    <item
+        android:id="@+id/drawer_go_contact"
+        android:checkable="false"
+        android:checked="true"
+        android:icon="@drawable/ic_contact"
+        android:title="@string/support" />
+
+    <item
+        android:id="@+id/drawer_go_exit"
+        android:checkable="false"
+        android:checked="true"
+        android:icon="@drawable/ic_close"
+        android:title="@string/close_app" />
+
+
+
+</menu>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".acount.Forgot">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/appbar"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/login_back"
+            android:layout_width="55sp"
+            android:layout_height="55sp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8sp"
+            android:layout_marginTop="8sp"
+            android:layout_marginEnd="8sp"
+            android:layout_marginBottom="8sp"
+            android:contentDescription="TODO"
+            android:scaleType="fitXY"
+            android:src="@drawable/but_exit" />
+
+        <TextView
+            android:id="@+id/register_titleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Reset"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/form">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="4sp">
+
+                <TextView
+                    android:id="@+id/text_view_reset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="@string/reset_password"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/reset_lyt_otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="2dp"
+                        android:textColorHint="@color/green_1"
+                        app:endIconMode="clear_text">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/reset_email_edit_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:focusable="true"
+                            android:hint="@string/email"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:nextFocusDown="@+id/register_emailInput"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/black"
+                            tools:ignore="TextContrastCheck" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/reset_password_btn"
+                        android:layout_width="300sp"
+                        android:layout_height="50sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30sp"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/reset"
+                        android:textAllCaps="true"
+                        android:textColor="@color/purple_500"
+                        android:textSize="26sp" />
+
+                    <LinearLayout
+                        android:id="@+id/header_msg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginEnd="15sp"
+                        android:background="#92FFC107"
+                        android:orientation="vertical"
+                        android:padding="15sp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_message"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8sp"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textColor="#09980F"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="If You Do Not Find The Message, Check Spam."
+                            android:textAlignment="center"
+                            android:textColor="#F44336"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btn_goo_login"
+                            android:layout_width="300sp"
+                            android:layout_height="50sp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20sp"
+                            android:paddingStart="20sp"
+                            android:paddingEnd="20sp"
+                            android:text="Goo To Login"
+                            android:textColor="@color/purple_500" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

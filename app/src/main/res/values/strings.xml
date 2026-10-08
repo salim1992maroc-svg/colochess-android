@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Color Chess</string>
+
+    <string name="txt_this_function_is_not_support_here">This function is not support here.</string>
+
+
+    <string name="no_internet">No Internet Connection!</string>
+    <string name="no_internet_connection">No Internet Connection please check your internet connection.</string>
+    <string name="slow_internet_connection">Slow Internet Connection Please Check your Internet Connection</string>
+
+    <string name="your_country">Your country:</string>
+    <string name="profile_data">Profile data</string>
+    <string name="email_address">Email address</string>
+    <string name="invitation_code">Invitation code</string>
+    <string name="invited_by">You are invited by:</string>
+    <string name="invited_name">Invited user name</string>
+    <string name="enter_invitation_code">Enter invitation code</string>
+    <string name="enter_new_pass">New password</string>
+    <string name="change">Change Password</string>
+    <string name="delete_acc">Delete Account</string>
+    <string name="logout">Log out</string>
+    <string name="enter_pass">Enter a password!</string>
+
+    <string name="payeer_tab">Payyer</string>
+    <string name="paypal_tab">PayPal</string>
+
+    <string name="change_avatar">Change Avatar</string>
+    <string name="enter_avatar_url">Enter your avatar url:</string>
+    <string name="update">Update</string>
+    <string name="change_name">Change Name</string>
+    <string name="today">Today</string>
+    <string name="updating">Updating…</string>
+    <string name="ref_code_copied">Referral code copied to clipboard</string>
+
+    <string name="retry">Retry</string>
+    <string name="exit_window">Exit the process</string>
+    <string name="connection_error">Connection error!</string>
+    <string name="connection_error_desc">Could not connect to the server. Click on retry button to try again.</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="loading">Loading…</string>
+    <string name="login">Login</string>
+    <string name="number">Phone</string>
+    <string name="password">Password</string>
+    <string name="didNotSign_up">Not Have Account ? Sign up here.</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="enter_valid_number">Enter Valid Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="have_an_account">Already Have Account ? Login here.</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="enter_valid_email">Enter Valid Email</string>
+    <string name="enter_6_digit_password">Enter 6 or More Digit Password</string>
+    <string name="english">English</string>
+    <string name="hindi">عربي</string>
+    <string name="select_language">Select Language</string>
+    <string name="select">Select</string>
+    <string name="referCode">Referral Code (optional)</string>
+
+    <string name="please_wait">Please Wait…</string>
+    <string name="getting_data_from_server">Fetching Your data from server</string>
+    <string name="login_successfully">Login Successfully…</string>
+    <string name="cheating_in_app">You Are Blocked For Cheating in our app</string>
+    <string name="registration_success">Registration Successfully…</string>
+    <string name="login_in_progress">Login</string>
+
+    <string name="title_you_are_blocked">User blocked</string>
+    <string name="you_are_blocked">You Are Blocked due to cheating in this app</string>
+
+    <string name="signup_in_progress">Sign Up</string>
+    <string name="no_user_found">This Email is not Registered.</string>
+
+
+    <string name="forgot_password" translatable="false">Forgot Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="reset_password" translatable="false">Reset Password</string>
+    <string name="reset" translatable="false">Reset</string>
+    <string name="otp">Enter OTP</string>
+    <string name="submit" translatable="false">Submit</string>
+    <string name="resend_otp">Did not get OTP? Resend</string>
+
+    <string name="text_splash">Checking Data, Please Wait</string>
+
+    <string name="title_enoughcoins" translatable="false">Sory You Have Not Enough Coins</string>
+    <string name="desc_enoughcoins" translatable="false">Try to collect more coins by playing games or by executing offers</string>
+
+    <!-- dialog_vpn-->
+    <string name="title_vpn">A VPN Has Been Detected</string>
+    <string name="desc_vpn">It looks like you are using a VPN, \n please turn it off.</string>
+
+    <!-- dialog_root-->
+    <string name="title_root">A Root Has Been Detected</string>
+    <string name="desc_root">It looks like you are using a Root device, \n please choose another device.</string>
+
+    <!-- dialog_multiple-->
+    <string name="title_multiple">A multiple account Has Been Detected</string>
+    <string name="desc_multiple">It looks like you are using multiple account in one device, \n please choose another device.</string>
+
+
+
+    <string name="trans">Transaction</string>
+    <string name="gift_items">Gift Items</string>
+    <string name="invite">Invite</string>
+    <string name="profile">Profile</string>
+    <string name="official_site">Official site</string>
+    <string name="faq">F.A.Q.</string>
+    <string name="rules">Rulse</string>
+    <string name="terms">TERMS OF SERVICE</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="support">Support</string>
+    <string name="close_app">Close The App</string>
+    <string name="username">UserName</string>
+    <string name="usercountry">Country</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="_0">0</string>
+    <string name="stars">Stars:</string>
+
+</resources>
