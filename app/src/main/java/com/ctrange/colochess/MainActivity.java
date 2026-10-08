@@ -372,6 +372,7 @@ public class MainActivity extends AppCompatActivity {
 
                     } else {
 
+                        hideProgressDialog();
                         Constant.showToastMessage(activity, response.getString("message"));
                     }
 
@@ -409,7 +410,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("TAG","isTrue: " + isTrue);
 
-        if(isTrue.equals("1"));{
+        if(isTrue.equals("1")){
 
             dialogMessg();
 
